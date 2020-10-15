@@ -29,7 +29,7 @@ public abstract class BaseServiceImpl<E extends Base, ID extends Serializable> i
 
     @Override
     @Transactional
-    public E findByID(ID id) throws Exception {
+    public E findById(ID id) throws Exception {
         try{
             Optional<E> entityOptional= baseRepository.findById(id);
             return entityOptional.get();

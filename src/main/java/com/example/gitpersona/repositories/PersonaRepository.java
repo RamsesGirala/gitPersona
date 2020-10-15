@@ -1,4 +1,8 @@
 package com.example.gitpersona.repositories;
 
-public interface PersonaRepository {
+import com.example.gitpersona.entities.Persona;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface PersonaRepository extends BaseRepository<Persona,Long> {
 }

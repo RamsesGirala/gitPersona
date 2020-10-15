@@ -9,7 +9,7 @@ import org.hibernate.envers.Audited;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Table;
-
+import java.util.Date;
 
 @NoArgsConstructor
 @AllArgsConstructor
